@@ -1,13 +1,13 @@
 <h1>Installation Instructions :</h1>
-1- Clone GIT Repo
-2- Put in htdocs - (I use Xampp)
-3- create db Mysql named "studydrive_db" or change it in .env file and update db user/pass
-4- run migrate then seed to populate the data
-5- Install Postman to test APIs 
-6-Post some API for course registration : POST http://127.0.0.1:8000/api/course_registration
-   ex data: {"student_id":5,"course_id":2,"registered_on":"1978-09-29"} 
-7- List all Courses Available & Unavailable : GET http://127.0.0.1:8000/api/courses
-Mostafa Atef Said Shahien
+1- Clone GIT Repo <br>
+2- Put in htdocs - (I use Xampp)<br>
+3- create db Mysql named "studydrive_db" or change it in .env file and update db user/pass<br>
+4- run migrate then seed to populate the data<br>
+5- Install Postman to test APIs <br>
+6-Post some API for course registration : POST http://127.0.0.1:8000/api/course_registration<br>
+   ex data: {"student_id":5,"course_id":2,"registered_on":"1978-09-29"} <br>
+7- List all Courses Available & Unavailable : GET http://127.0.0.1:8000/api/courses<br>
+Mostafa Atef Said Shahien<br>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
